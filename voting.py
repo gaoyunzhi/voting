@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests
 import time
 import random
@@ -14,7 +16,7 @@ while True:
             count += 1
             print('voted, count:', count)
         else:
-            print('something wrong, contact wechat yunzhi_gao, owner of the script')
+            time.sleep(random.random() / 3.0)
     except:
         print("Connect failed, sleep for few seconds then try again..")
         time.sleep(random.randint(1, 10))
