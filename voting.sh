@@ -1,5 +1,6 @@
 #!/bin/bash
 curl -o voting.py https://raw.githubusercontent.com/gaoyunzhi/voting/master/voting.py 
+curl -o requirements.txt https://raw.githubusercontent.com/gaoyunzhi/voting/master/requirements.txt
 
 if command -v python3 &>/dev/null; then
 	python3 -W ignore voting.py
