@@ -1,4 +1,4 @@
-curl -o https://raw.githubusercontent.com/gaoyunzhi/voting/master/voting.py voting.py
+curl -o voting.py https://raw.githubusercontent.com/gaoyunzhi/voting/master/voting.py 
 nohup python3 voting.py &
 nohup python3 voting.py &
 nohup python3 voting.py &
