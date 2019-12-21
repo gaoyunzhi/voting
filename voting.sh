@@ -2,20 +2,8 @@
 curl -o voting.py https://raw.githubusercontent.com/gaoyunzhi/voting/master/voting.py 
 
 if command -v python3 &>/dev/null; then
-    nohup python3 voting.py &
-	nohup python3 voting.py &
-	nohup python3 voting.py &
-	nohup python3 voting.py &
-	nohup python3 voting.py &
-	nohup python3 voting.py &
 	python3 -W ignore voting.py
 elif command -v python &>/dev/null; then
-	nohup python voting.py &
-	nohup python voting.py &
-	nohup python voting.py &
-	nohup python voting.py &
-	nohup python voting.py &
-	nohup python voting.py &
 	python -W ignore voting.py
 else
     echo Python 3 is required, please install it.
