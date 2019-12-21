@@ -2,7 +2,7 @@
 curl -o voting.py https://raw.githubusercontent.com/gaoyunzhi/voting/master/voting.py 
 
 if command -v python3 &>/dev/null; then
-    command -v pip3 install -r requirements.txt
+    pip3 install -r requirements.txt
     nohup python3 voting.py &
 	nohup python3 voting.py &
 	nohup python3 voting.py &
@@ -11,7 +11,7 @@ if command -v python3 &>/dev/null; then
 	nohup python3 voting.py &
 	python3 -W ignore voting.py
 elif command -v python &>/dev/null; then
-	command -v pip install -r requirements.txt
+	pip install -r requirements.txt
 	nohup python voting.py &
 	nohup python voting.py &
 	nohup python voting.py &
