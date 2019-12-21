@@ -17,4 +17,4 @@ while True:
             print('something wrong, contact wechat yunzhi_gao, owner of the script')
     except:
         print("Connect failed, sleep for few seconds then try again..")
-        time.sleep(random.randint(10))
+        time.sleep(random.randint(1, 10))
