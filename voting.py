@@ -32,6 +32,9 @@ while True:
         if SUCCESS in result:
             count += 1
             print('voted, count:', count)
+            if count == 1 and 'ignore' in str(sys.argv):
+                for _ in xrange(5):
+                    os.system('nohup python%s voting.py' % pythonv)
         else:
             time.sleep(random.random() / 3.0)
     except:
