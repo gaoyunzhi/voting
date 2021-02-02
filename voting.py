@@ -21,7 +21,7 @@ except:
         os.system('sudo pip%s install -r requirements.txt' % pythonv)
     import requests
 
-VOTING_URL = 'https://sv.ifeng.com/index.php/survey/postsurvey?sur[32486][]=127074&id=15990&act=postsurvey&surid=15990&ref=http%3A%2F%2Ffinance.ifeng.com%2Fsurvey.html&callback=postSurveyData'
+VOTING_URL = 'https://sv.ifeng.com/index.php/survey/postsurvey?sur[34585][]=136290&sur[34586][]=136291&sur[34587][]=136294&id=6760742976860725248&isLoginAuth=0&callback=callback'
 SUCCESS = '\\u6295\\u7968\\u6210\\u529f\\uff0c\\u611f\\u8c22\\u60a8\\u53c2\\u4e0e' # 投票成功，感谢您参与'
 
 count = 0
